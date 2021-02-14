@@ -1,0 +1,61 @@
+@import 'colors.scss';
+
+.select{
+    &.inputs{
+        margin-left: 210px;
+    }
+    margin: -30px 0 0 0px;
+    background: $myBackground;
+    color: $text-color;
+    position: relative;
+    margin-left: 140px;
+    height: 30px;
+    //float: right;
+    //display: inline;
+    &.is-active{ 
+        & .select-body{
+        display: block;
+        }
+    }
+    &-header{
+        padding: 1px 0 0 0;
+        display:flex;
+        border: 0.5px solid transparent;
+        cursor: pointer;
+    }
+    &-icon{
+        align-items: center;
+        text-align: center;
+        flex-shrink: 0;
+        justify-content: center;
+        height:30px;
+        width:30px;
+        margin-left: auto;
+        padding: -50px 0 0 0 ;
+    }
+    &-current{
+        font-size: 15px;
+        line-height: 24px;
+        padding: 0px 7px 0px 7px;
+    }
+    &-body{
+        border:0.5px solid $select-border;
+        border-top: 0;
+        left:0;
+        position: absolute;
+        right:0;
+        top: 100%;
+        display:none;
+        background: $myBackground;
+    }
+    &-item{
+        line-height: 24px;
+        padding: 1px 1px 1px 5px;
+        cursor: pointer;
+        font-size: 15px;
+        &:hover{
+            background-color: $selected;
+            color:antiquewhite;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@import 'colors.scss';
+body{
+    
+    font-family: 'Courier New', Courier, monospace;
+    background: $myBackground; 
+    caret-color:$text-color;
+}
+button{
+    background: transparent;
+    color: $text-color;
+}
+#add-form{
+    border-radius: 15px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: $text-color;
+    width: 600px;
+    margin: 100px auto 0 auto;
+    padding: 10px 50px 50px 50px;
+}
+.form-group{
+    margin: 20px;
+    display: block;
+}
+
+.label-participant{
+    display: inline-block;
+    position: relative;
+}
+
+.label{
+    width: 200px;
+    display: inline-block;
+}
+
+.inputs{
+    width: 250px;
+    background: $myBackground;
+    color: $text-color;
+    border-color:transparent;
+}
+

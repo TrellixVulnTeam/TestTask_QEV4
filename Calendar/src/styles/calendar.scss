@@ -1,0 +1,76 @@
+@import 'colors.scss';
+
+body{
+    
+    font-family: 'Courier New', Courier, monospace;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+    margin: 0px;
+    padding: 80px;
+    color: $text-color;
+    header{
+        display: flex;
+    }
+}
+#shedTable{
+    background-color: $myBackground;
+}
+#filter{
+    background-color: $myBackground;
+    color: $text-color;
+}
+.title{
+    margin: 0 20px 0 20px;
+}
+.title-btns{
+    padding: 12px 0 0 0;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+th{
+   background-color: $myBackground;
+}
+.time{
+    font-weight: bold;
+}
+
+button{
+    background-color: $myBackground;
+    color: $event;
+}
+.meeting{
+    color: black;
+    background-color: $event;
+    //display:flex;
+    text-overflow: ellipsis;
+}
+
+.table tr td{
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+}
+.delete-item{
+        display:inline-block;
+        height:40px;
+        width:40px;
+        font-size: 20px;
+}
+.meeting-name{
+    padding: 3px;
+    display:flex;
+    width: 120px;
+    overflow: hidden;
+    display:inline-block;
+
+}
+.info-item{
+    font-size: 20px;
+    width:20px;
+    display:inline-block;
+}
+
